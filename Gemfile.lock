@@ -1,0 +1,10 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rack-fiber_pool (0.9.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rack-fiber_pool
