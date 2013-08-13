@@ -1,2 +1,13 @@
+See https://github.com/alebsack/rack-fiber_pool/blob/master/example/app.rb
+rack-fiber_pool
+  https://github.com/alebsack/rack-fiber_pool
+  https://github.com/mperham/rack-fiber_pool/
+  A Rack middleware component which runs each request in a Fiber from a pool of Fibers.
+  You need a EventMachine-based server (e.g. thin or rainbows)
+
+Based on FiberPool https://github.com/JonRowe/FiberPool
+  An implementation of a fiber pool that can be used to cooperatively schedule workloads.
+  Best used in combination with EventMachine to allow multiple workloads to be processed at the same time.
+
 http://rubylearning.com/blog/a-quick-introduction-to-rack/
 by Satish Salim
